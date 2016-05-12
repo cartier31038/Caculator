@@ -1,0 +1,18 @@
+#Android
+#
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/build
+/captures
+/bin
+/gen
+.metadata/
+.recommenders/
+.classpath
+
+# OSX
+#
+.DS_Store

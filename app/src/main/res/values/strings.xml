@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <string name="title">Awesome Calculator</string>
+
+    <string name="operand_1_hint_edit_text">Operand 1</string>
+    <string name="operand_2_hint_edit_text">Operand 2</string>
+
+    <string name="add_button">+</string>
+    <string name="sub_button">-</string>
+    <string name="mul_button">*</string>
+    <string name="divide_button">/</string>
+
+    <string name="cal_button">Cal It!!</string>
+    <string name="result_title">Result:</string>
+    <string name="result_text_view_hint">Empty result</string>
+
+</resources>
