@@ -40,6 +40,7 @@ public class CalculatorSubTest {
             {2, 1, 1.0},
             {8, 2, 6.0},
             {-1, 6, -7.0},
+            {1, 6, -5.0},
         });
     }
 }
