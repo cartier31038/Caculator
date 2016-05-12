@@ -16,11 +16,13 @@ public class CalculatorTest {
 
     @Before
     public void setUp() throws Exception {
+        //Arrange
         calculator = new Calculator();
     }
 
     @After
     public void tearDown() throws Exception {
+        //Arrange
         calculator = null;
     }
 
@@ -59,7 +61,6 @@ public class CalculatorTest {
 
     @Test
     public void สองคูณหนึ่งเท่ากับสอง() {
-        //Arrange
         //Act
         double actualResult = calculator.mul(2, 1);
         //Assert
