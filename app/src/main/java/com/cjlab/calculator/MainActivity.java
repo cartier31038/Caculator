@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity implements CalculatorListene
         operand2EditText = (EditText) findViewById(R.id.operand_2_edit_text);
         resultTextView = (TextView) findViewById(R.id.result_text_view);
 
-        mainController = new MainController(this);
+        mainController = new MainController();
+        mainController.setListener(this);
     }
 
     public void onAdd(View view)

@@ -12,3 +12,20 @@ public interface CalculatorInterface {
 
     double divide(double firstOperand, double secondOperand);
 }
+/*
+interface CalculatorAddInterface {
+    double add(double firstOperand, double secondOperand);
+}
+
+interface CalculatorSubInterface {
+    double sub(double firstOperand, double secondOperand);
+}
+
+interface CalculatorMulInterface {
+    double mul(double firstOperand, double secondOperand);
+}
+
+interface CalculatorDivideInterface {
+    double divide(double firstOperand, double secondOperand);
+}
+*/

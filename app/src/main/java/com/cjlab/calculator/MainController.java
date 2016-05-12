@@ -5,11 +5,19 @@ package com.cjlab.calculator;
  */
 public class MainController {
 
-    private Calculator calculator = new Calculator();
     private CalculatorListener listener;
+    private CalculatorInterface calculator;
 
-    public MainController(CalculatorListener listener) {
+    public MainController() {
+        this.calculator = new Calculator();
+    }
+
+    public void setListener(CalculatorListener listener) {
         this.listener = listener;
+    }
+
+    public void setCalculator(CalculatorInterface calculator) {
+        this.calculator = calculator;
     }
 
     public void add(double operand1, double operand2)

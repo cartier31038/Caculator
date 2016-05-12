@@ -12,13 +12,23 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+    signingConfigs {
+        release {
+            storeFile file("../calculator.keystore")
+            storePassword "tier9336621"
+            keyAlias "calculator-key"
+            keyPassword "tier9336621"
+        }
+    }
     buildTypes {
         debug {
             testCoverageEnabled = true
         }
         release {
+            debuggable false
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
 }
